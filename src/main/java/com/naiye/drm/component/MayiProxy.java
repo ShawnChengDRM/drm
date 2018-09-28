@@ -92,7 +92,7 @@ public class MayiProxy {
         }
         //是否释放当前代理, 0为不释放，1为释放
         //一分半钟超时
-        connection.proxy("s5.proxy.mayidaili.com", 8123).header("Proxy-Authorization", getAuthHeader("101361976", "94f1772c63b14a254d4804f33fba398e", proxyNO, release));
+        connection.proxy("s2.proxy.mayidaili.com", 8123).header("Proxy-Authorization", getAuthHeader("237956091", "41a7ac387982888b8f3d8125d6078393", proxyNO, release));
         return proxyNO;
     }
 }

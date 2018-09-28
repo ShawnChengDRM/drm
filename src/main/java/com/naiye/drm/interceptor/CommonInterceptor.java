@@ -9,11 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * @Author: jyl
- * @Descriptions:
- * @Date: create in  15:49 2018/3/8
- */
 public class CommonInterceptor implements HandlerInterceptor {
     private static final Logger logger = LoggerFactory.getLogger(CommonInterceptor.class);
 

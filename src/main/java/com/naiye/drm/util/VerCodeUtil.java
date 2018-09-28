@@ -37,7 +37,7 @@ public class VerCodeUtil {
             long time = (new Date()).getTime();
             URL u = null;
             HttpURLConnection con = null;
-            String boundary = "----------" + Tools.getUUID();
+            String boundary = "----------" + Tools.getUuid();
             String boundarybytesString = "\r\n--" + boundary + "\r\n";
             OutputStream out = null;
 

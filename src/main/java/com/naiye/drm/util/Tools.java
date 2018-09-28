@@ -36,7 +36,7 @@ public class Tools {
         return result;
     }
 
-    public static String getUUID() {
+    public static String getUuid() {
         Date dc = new Date();
         Long t = dc.getTime() + 12216643200000L;
         String tl = getIntegerBits(t, 0, 31);
