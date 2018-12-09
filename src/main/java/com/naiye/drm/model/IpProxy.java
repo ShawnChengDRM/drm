@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@Table(name = "outall_ip_proxy")
+@Table(name = "zhima_ip_proxy")
 public class IpProxy implements Serializable {
 
     @Id
