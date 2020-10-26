@@ -4,10 +4,28 @@ import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.Base64;
 import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class Tools {
     private Tools() {
+    }
+
+    public static void main(String[] args) {
+        String content = "asdC15RZ541564LJOINRZ2316545HBjbj";
+
+        String rgex = "RZ(.*?)RZ";
+
+        Pattern pattern = Pattern.compile(rgex);
+        Matcher m = pattern.matcher(content);
+
+        while (m.find()) {
+            int i = 0;
+            System.out.println(m.group(i));
+            i++;
+        }
+
     }
 
     public static String gettime17() {
